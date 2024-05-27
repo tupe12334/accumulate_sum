@@ -4,7 +4,7 @@
 void print_array(float *array, unsigned short int size) {
   size_t i;
   for (i = 0; i < size; i++) {
-    printf("%f ", array[i]);
+    printf("%.2f ", array[i]);
   }
   printf("\n");
 }
