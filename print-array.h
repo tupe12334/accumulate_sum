@@ -1,1 +1,1 @@
-void print_array(int *array, unsigned short int size);
+void print_array(float *array, unsigned short int size);
