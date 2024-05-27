@@ -1,13 +1,7 @@
+#include "print-array.h"
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
-
-void print_array(int *array, unsigned short int size) {
-  size_t i;
-  for (i = 0; i < size; i++) {
-    printf("%d ", array[i]);
-  }
-}
 
 int *get_array_values(size_t size) {
   size_t i;
