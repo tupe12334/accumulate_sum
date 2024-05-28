@@ -18,5 +18,8 @@ get-array-values.o: get-array-values.c print-array.o
 print-array.o: print-array.c
 	$(CC) $(CFLAGS) -c print-array.c
 
+examples: partial-sums.o
+	./main.out < ./examples/example1.txt > ./examples/result1.txt && ./main.out < ./examples/example2.txt > ./examples/result2.txt
+
 clean:
 	rm -rf **.o
